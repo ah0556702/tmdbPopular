@@ -1,0 +1,67 @@
+/*   Assignment: Exam 3
+     CSS page of Exam 3
+     Author: Audrey Harmon
+     Date: November 4, 2022
+*/
+
+
+
+body {
+    background-image: url('glitter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    font-family: "Ink Free"
+}
+
+.headerTitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.2em;
+    text-shadow: 2px 2px 10px white;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img {
+    width: 190px;
+    max-height: 290px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px white;
+}
+
+.info {
+    display: none;
+    width: 50%;
+    color: black;
+    text-align: justify;
+    margin: auto;
+    font-size: 1.2em;
+    background-color: #f7e3a6;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 10px white;
+}
+
+.name {
+    color: black;
+}
+
+.button {
+    border: none;
+    box-shadow: 2px 2px 15px black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    text-align: right;
+    float: right;
+}
